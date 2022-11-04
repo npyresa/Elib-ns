@@ -67,3 +67,15 @@
   display: block;
   max-height: 32px;
 }
+
+@media screen and (max-width: 995px) {
+  .ns_logos {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .ns_logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
