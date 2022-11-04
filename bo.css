@@ -1,0 +1,69 @@
+* {
+  font-family: 'Poppins';
+}
+
+:root {
+  --white: #fff;
+  --darkblue: rgb(0, 47, 108);
+  --lightblue: rgba(228, 241, 252, 0.36);
+  --orange: rgb(235 101 53);
+  --lightorange: rgb(248 178 48);
+  --purple: rgb(103 33 131);
+  --pink: rgb(247 115 243);
+  --pink2: #ff579c;
+  --lightgrey: #f5fafe;
+  --shadow: rgba(121, 168, 216, 0.22) 0px 0px 16px;
+  --shadowlarge: 0px 0px 99px rgba(59, 139, 219, 0.17);
+  --green: rgb(94 255 139);
+  --yellow: #ffe700;
+  --cyan: #8dfffc;
+}
+
+.ns_home_message {
+  background: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.ns_home_message > span {
+  background: var(--pink);
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 900;
+  margin: 20px 0px;
+  display: block;
+  width: fit-content;
+}
+
+.ns_logos {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.ns_logos a {
+  display: block;
+  border: 1px dashed aliceblue;
+  transition: all 0.3s;
+}
+
+.ns_logos a:hover {
+  transform: scale(1.05);
+}
+
+.ns_logos a img {
+  max-width: 100%;
+}
+
+.ns_warning {
+  background: #fcefef;
+  border-radius: 10px;
+  color: #a1001b;
+  padding: 20px;
+}
+
+.ns_warning img {
+  display: block;
+  max-height: 32px;
+}
